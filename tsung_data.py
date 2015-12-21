@@ -183,9 +183,13 @@ if __name__ == '__main__':
     if os.access(file_name, os.R_OK):
         print_metrics(file_name, host_name)
     else:
+        file_paths = []
         for root, dirs, files in os.walk('.'):
             if file_name in files:
                 file_path = os.path.sep.join([root, file_name])
+                file_paths.append(file_path)
+        file_paths.sort()
+        for file_path in file_paths:
                 print('%s:' % file_path)
                 print_metrics(file_path, host_name)
 
