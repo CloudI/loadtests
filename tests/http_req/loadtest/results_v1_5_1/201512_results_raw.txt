@@ -1,0 +1,45 @@
+./201512_20k_10kreqs_default/erlang/20151221-17:18/tsung.log:
+		min_min    	max_mean    	max_max	   (trans latency)
+    page:	0.081055	2.786706	2998.687988	milliseconds
+		transactions_per_second_max		   (trans throughput)
+    page:	10164.900000 -10% during 260s	(10164.900000 peak)
+./201512_20k_10kreqs_default/php/20151221-05:18/tsung.log:
+		min_min    	max_mean    	max_max	   (trans latency)
+    page:	0.087158	2689.047597	5637.639893	milliseconds
+		transactions_per_second_max		   (trans throughput)
+    page:	5048.500000 -10% during 860s	(5048.500000 peak)
+./201512_20k_10kreqs_default/python/20151221-06:54/tsung.log:
+		min_min    	max_mean    	max_max	   (trans latency)
+    page:	0.091064	2056.091142	2141.990967	milliseconds
+		transactions_per_second_max		   (trans throughput)
+    page:	5771.400000 -10% during 780s	(5771.400000 peak)
+./201512_20k_10kreqs_default/python_c/20151221-06:04/tsung.log:
+		min_min    	max_mean    	max_max	   (trans latency)
+    page:	0.090820	5.473694	3000.703125	milliseconds
+		transactions_per_second_max		   (trans throughput)
+    page:	10158.400000 -10% during 350s	(10158.400000 peak)
+./201512_20k_10kreqs_default/ruby/20151221-15:56/tsung.log:
+		min_min    	max_mean    	max_max	   (trans latency)
+    page:	0.092041	2086.754724	2179.396973	milliseconds
+		transactions_per_second_max		   (trans throughput)
+    page:	5750.300000 -10% during 850s	(5750.300000 peak)
+./201512_20k_10kreqs_default/c/20151221-02:30/tsung.log:
+		min_min    	max_mean    	max_max	   (trans latency)
+    page:	0.090088	3.209151	3000.248047	milliseconds
+		transactions_per_second_max		   (trans throughput)
+    page:	10210.900000 -10% during 280s	(10210.900000 peak)
+./201512_20k_10kreqs_default/perl/20151221-04:40/tsung.log:
+		min_min    	max_mean    	max_max	   (trans latency)
+    page:	0.092041	2688.922853	2774.763916	milliseconds
+		transactions_per_second_max		   (trans throughput)
+    page:	4978.000000 -10% during 860s	(4978.000000 peak)
+./201512_20k_10kreqs_default/javascript/20151221-04:02/tsung.log:
+		min_min    	max_mean    	max_max	   (trans latency)
+    page:	0.263916	6095.645989	6201.819092	milliseconds
+		transactions_per_second_max		   (trans throughput)
+    page:	2926.300000 -10% during 370s	(3016.000000 peak)
+./201512_20k_10kreqs_default/java/20151221-03:12/tsung.log:
+		min_min    	max_mean    	max_max	   (trans latency)
+    page:	0.096191	3.761076	3003.868896	milliseconds
+		transactions_per_second_max		   (trans throughput)
+    page:	10350.200000 -10% during 390s	(10350.200000 peak)
