@@ -1,4 +1,4 @@
-#CloudI Loadtest Results
+# CloudI Loadtest Results
 
 Large binary files are stored here that provide the raw output from
 loadtesting [CloudI](https://github.com/CloudI/CloudI/tree/develop/src).
