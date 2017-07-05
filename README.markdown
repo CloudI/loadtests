@@ -9,7 +9,14 @@ For summarized information, [go here](http://cloudi.org/faq.html#5_LoadTesting).
 
 ## `tsung_data.py`
 
+The `tsung_data.py` script is used for generating accurate summary information
+from the raw data produced by [Tsung](http://tsung.erlang-projects.org/).
 Output was generated in the result directory with:
 
     ../../../../tsung_data.py -s HOSTNAME > ./YYYYMM_results_raw.txt
 
+## SETUP
+
+Load test LiveCDs can make any computer into a loadtest client.
+Directions are provided for creating a load test LiveCD with
+[Alpine Linux](https://github.com/CloudI/loadtests/tree/master/live_cd/alpine#readme).
