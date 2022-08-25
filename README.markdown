@@ -7,16 +7,7 @@ organization.
 
 For summarized information, [go here](https://cloudi.org/faq.html#5_LoadTesting).
 
-## `tsung_data.py`
+Currently, only Tsung loadtest results from CloudI =< 1.5.1 are in this
+repository.  More recent results are available from usage of the
+[`cloudi_service_request_rate` service in the main repository](https://github.com/CloudI/CloudI/tree/develop/src/lib/cloudi_service_request_rate/results).
 
-The `tsung_data.py` script is used for generating accurate summary information
-from the raw data produced by [Tsung](http://tsung.erlang-projects.org/).
-Output was generated in the result directory with:
-
-    ../../../../tsung_data.py -s HOSTNAME > ./YYYYMM_results_raw.txt
-
-## SETUP
-
-Load test LiveCDs can make any computer into a loadtest client.
-Directions are provided for creating a load test LiveCD with
-[Alpine Linux](https://github.com/CloudI/loadtests/tree/master/live_cd/alpine#readme).
